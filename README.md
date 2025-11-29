@@ -1,6 +1,6 @@
 # 🐵 Monkey Pose Mimic
 
-# Projede Güncelleme Yapılmıştır 2 Adet Yeni Poz/Mimik Eklenmiştir.
+# Projede Güncelleme Yapılmıştır 2 Adet Yeni Poz/Mimik Eklenmiştir. Ve El Kaldırmadaki Hata Çözülmüştür.
 
 Real-time pose detection ile etkileşimli maymun taklit uygulaması.
 
