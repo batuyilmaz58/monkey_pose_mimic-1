@@ -137,9 +137,11 @@ class MonkeyPoseApp(QMainWindow):
         images = {}
         pose_files = {
             "raising_hand": "raising_hand_pose.jpg",
+            "smile" : "smile.jpg",
             "shocking": "shocking_pose.jpg",
             "thinking": "thinking_pose.jpg",
-            "default": "default_pose.jpg"
+            "default": "default_pose.jpg",
+            "relaxing": "relax.jpg"
         }
         
         for pose, filename in pose_files.items():
@@ -189,10 +191,13 @@ class MonkeyPoseApp(QMainWindow):
             self.monkey_label.setStyleSheet("QLabel { color: #ff9800; font-size: 16px; border: 2px dashed #444; }")
         
         pose_names = {
-            "raising_hand": "☝️ İşaret Parmağı Yukarıda",
+            "pointing": "👆 İşaret Parmağı",
+            "raising_hand": "☝️ El Yukarıda",
+            "smile" : "😊 Gülen Maymun",
             "shocking": "😲 Ağız Açık (Şaşkınlık)",
             "thinking": "🤔 El Yüzde (Düşünme)",
-            "default": "😊 Normal Duruş"
+            "default": "😊 Normal Duruş",
+            "relaxing": "😌 Rahat Duruş"
         }
         self.pose_name_label.setText(pose_names.get(pose_name, pose_name))
     
